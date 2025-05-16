@@ -22,9 +22,3 @@ This admin interface allows you to manage **categories, listings, and bookings**
 - **Booking Management:** View all bookings and update statuses (Approved, Pending, Cancelled).
 - **Search & Filter:** Quickly search listings and bookings.
 - **Responsive Design:** Mobile-first UI, device-friendly experience.
-
----
-
-## 🔧 Installation & Setup
-
-
