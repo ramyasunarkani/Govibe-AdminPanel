@@ -7,15 +7,12 @@ const AdminBookings = () => {
   const dispatch = useDispatch();
   const bookings = useSelector((state) => state.bookings.bookings);
 
-  // State for filter (e.g., All, Pending, Confirmed, Rejected)
   const [statusFilter, setStatusFilter] = useState('All');
 
-  // Handle status change for booking
   const handleStatusChange = (bookingId, newStatus) => {
     dispatch(updateBookingStatus(bookingId, newStatus));
   };
 
-  // Filter bookings based on selected status
   const filteredBookings = bookings.filter((booking) => {
     if (statusFilter === 'All') return true;
     return booking.status === statusFilter;
