@@ -1,0 +1,9 @@
+.dashboard-stats-card {
+    padding: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    text-align: center;
+}

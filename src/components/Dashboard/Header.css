@@ -1,0 +1,40 @@
+.header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #7880d0;
+    border-bottom: 2px solid #0a1aca;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+.logo{
+    margin-left: 2rem;
+    background-color: #7880d0;
+    cursor: pointer;
+}
+.logo img{
+    background-color: #7880d0;
+    margin: 0;
+}
+.logo p{
+    margin-left: 1rem;
+    background-color: #7880d0;
+    font-family: cursive;
+    color: white;
+}
+.header button{
+    margin-right: 2rem;
+    width: 85px;
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0a1aca;
+    color: white;
+}
+.header button:hover{
+    background-color: #101da4;
+}
