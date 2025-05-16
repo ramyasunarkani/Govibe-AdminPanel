@@ -1,12 +1,30 @@
-# React + Vite
+# GoVibe Admin Panel (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern **Admin Panel** built using **React**, **Redux Toolkit**, and **Firebase Realtime Database**.  
+This admin interface allows you to manage **categories, listings, and bookings** for the GoVibe Travel platform.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Tech Stack
 
-## Expanding the ESLint configuration
+- **React (with Vite)**
+-  **Firebase Realtime Database**
+- **Redux Toolkit + Thunks**
+-  **CSS3 (Mobile-first, Responsive)**
+-  **React Router DOM**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- **Category Management:** Add, edit, delete, and view all categories.
+- **Listings Management:** Create, edit, delete listings with images, prices, and addresses.
+- **Booking Management:** View all bookings and update statuses (Approved, Pending, Cancelled).
+- **Search & Filter:** Quickly search listings and bookings.
+- **Responsive Design:** Mobile-first UI, device-friendly experience.
+
+---
+
+## 🔧 Installation & Setup
+
+### 1. Clone the repo:
