@@ -30,7 +30,7 @@ const AdminBookings = () => {
         <label>Filter by Status:</label>
         <select value={statusFilter} onChange={handleFilterChange}>
           <option value="All">All</option>
-          <option value="Pending">Pending</option>
+          <option value="pending">Pending</option>
           <option value="Confirmed">Confirmed</option>
           <option value="Rejected">Rejected</option>
         </select>

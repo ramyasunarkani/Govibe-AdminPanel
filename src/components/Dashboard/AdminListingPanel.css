@@ -96,6 +96,7 @@ input[type="file"] {
 }
 
 .search-bar {
+    width: 50%;
     display: flex;
     gap: 0.5rem;
     margin: 1rem 0;
@@ -110,14 +111,7 @@ input[type="file"] {
     border-radius: 5px;
 }
 
-.search-bar button {
-    padding: 0.5rem 1rem;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
+
 
 @media (max-width: 768px) {
     .listing-header {
